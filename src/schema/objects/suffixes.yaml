@@ -900,6 +900,14 @@ svs:
   display_name: Single-voxel spectroscopy
   description: |
     MRS acquisitions where the detected MR signal is spatially localized to a single volume.
+swi:
+  value: swi
+  display_name: Susceptibility weighted image
+  description: |
+    Susceptibility weighted imaging (SWI) is a gradient-echo derived contrast
+    that combines magnitude and high-pass filtered, phase information
+    into a single image.
+  unit: arbitrary
 trace:
   value: trace
   display_name: Trace-weighted diffusion image
